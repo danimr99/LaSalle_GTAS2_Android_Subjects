@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">Subjects</string>
     <string name="subject_item_image_description">Image of the subject</string>
-    <string name="subject_web_title">Web Development</string>
-    <string name="subject_web_description">This is the description of WEB.</string>
+    <string name="subject_web_title">Web</string>
+    <string name="subject_web_description">This is the description of Web.</string>
     <string name="subject_web_professorName">Daniel Amo</string>
-    <string name="subject_android_title">Mobile Development</string>
-    <string name="subject_android_description">This is the description of Mobile Development.</string>
+    <string name="subject_android_title">Mobile</string>
+    <string name="subject_android_description">This is the description of Mobile.</string>
     <string name="subject_android_professorName">Manel Roca</string>
-    <string name="subject_online_services_title">Online Services Development</string>
-    <string name="subject_online_services_description">This is the description of Online Services Development.</string>
+    <string name="subject_online_services_title">Online Services</string>
+    <string name="subject_online_services_description">This is the description of Online Services.</string>
     <string name="subject_online_services_professorName">Yuri González</string>
 </resources>

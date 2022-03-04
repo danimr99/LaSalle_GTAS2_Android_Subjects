@@ -56,7 +56,7 @@ public class SubjectsAdapter extends RecyclerView.Adapter<SubjectsAdapter.MyView
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         final Subject item = this.subjects.get(position);
 
-        //holder.image.setBackgroundResource(item.getImage());
+        holder.image.setBackgroundResource(item.getImage());
         holder.title.setText(item.getName());
         holder.description.setText(item.getDescription());
     }
