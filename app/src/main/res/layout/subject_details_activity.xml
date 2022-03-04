@@ -5,36 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SubjectDetails">
+    tools:context=".controller.SubjectDetails">
 
     <ImageView
         android:id="@+id/android"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:contentDescription="@string/image" />
+        android:layout_height="220dp" />
 
     <TextView
         android:id="@+id/TextView"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:contentDescription="@string/title" />
+        android:layout_height="60dp" />
 
     <TextView
         android:id="@+id/TextDescription"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:contentDescription="@string/description" />
+        android:layout_height="230dp" />
 
     <TextView
         android:id="@+id/ProfessorName"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:contentDescription="@string/professor" />
+        android:layout_height="50dp" />
 
     <TextView
         android:id="@+id/TextCredits"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:contentDescription="@string/credits" />
+        android:layout_height="40dp" />
 
 </LinearLayout>

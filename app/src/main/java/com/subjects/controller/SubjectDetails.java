@@ -11,6 +11,6 @@ public class SubjectDetails extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_subject_details);
+        setContentView(R.layout.subject_details_activity);
     }
 }
