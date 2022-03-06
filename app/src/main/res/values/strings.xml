@@ -10,4 +10,6 @@
     <string name="subject_online_services_title">Online Services</string>
     <string name="subject_online_services_description">This is the description of Online Services.</string>
     <string name="subject_online_services_professorName">Yuri González</string>
+    <string name="professor_name_title">Professor:</string>
+    <string name="credits_title">Credits:</string>
 </resources>

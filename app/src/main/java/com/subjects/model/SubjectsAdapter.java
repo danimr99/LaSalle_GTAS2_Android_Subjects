@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.subjects.R;
-import com.subjects.controller.SubjectDetails;
+import com.subjects.controller.SubjectDetailsActivity;
 
 
 import java.util.List;
@@ -30,12 +30,6 @@ public class SubjectsAdapter extends RecyclerView.Adapter<SubjectsAdapter.MyView
             this.title = view.findViewById(R.id.titleTextView);
             this.description = view.findViewById(R.id.descriptionTextView);
             this.image = view.findViewById(R.id.imageView);
-
-            // Set onClickListener to the entire item of the RecyclerView
-            view.setOnClickListener(v -> {
-                Intent intent = new Intent(v.getContext(), SubjectDetails.class);
-                v.getContext().startActivity(intent);
-            });
         }
     }
 
@@ -59,6 +53,14 @@ public class SubjectsAdapter extends RecyclerView.Adapter<SubjectsAdapter.MyView
         holder.image.setBackgroundResource(item.getImage());
         holder.title.setText(item.getName());
         holder.description.setText(item.getDescription());
+
+        // Set onClickListener to the entire item of the RecyclerView
+        holder.itemView.setOnClickListener(view -> {
+            // Intent to SubjectDetails
+            Intent intent = new Intent(view.getContext(), SubjectDetailsActivity.class);
+            intent.putExtra("subject", item);
+            view.getContext().startActivity(intent);
+        });
     }
 
     @Override

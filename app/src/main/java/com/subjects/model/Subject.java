@@ -1,7 +1,9 @@
 package com.subjects.model;
 
 
-public class Subject {
+import java.io.Serializable;
+
+public class Subject implements Serializable {
     private final int image;
     private final int name;
     private final int description;
@@ -26,5 +28,13 @@ public class Subject {
 
     public int getDescription() {
         return description;
+    }
+
+    public int getCredits() {
+        return credits;
+    }
+
+    public int getProfessorName() {
+        return professorName;
     }
 }
